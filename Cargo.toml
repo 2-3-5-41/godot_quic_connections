@@ -1,0 +1,17 @@
+[package]
+name = "godot_quic_connections"
+version = "0.1.0"
+edition = "2021"
+build = "build.rs"
+
+[lib]
+crate-type = ["lib", "cdylib"]
+
+[dependencies]
+# Godot crates
+godot = { version = "0.2.3", features = ["register-docs"] }
+godot_tokio = "0.3.0"
+# Quic crates
+quinn = "0.11.6"
+rcgen = "0.13.2"
+rustls = "0.23.23"

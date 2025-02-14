@@ -1,0 +1,5 @@
+/target
+
+/addons/QuicServer/*.so
+/addons/QuicServer/*.dll
+/addons/QuicServer/*.dylib

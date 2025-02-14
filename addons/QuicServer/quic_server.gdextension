@@ -1,0 +1,14 @@
+[configuration]
+entry_symbol = "gdext_rust_init"
+compatibility_minimum = 4.1
+reloadable = true
+
+[libraries]
+linux.debug.x86_64 =     "res://addons/QuicServer/libgodot_quic_connections_debug.so"
+linux.release.x86_64 =   "res://addons/QuicServer/libgodot_quic_connections.so"
+windows.debug.x86_64 =   "res://addons/QuicServer/godot_quic_connections_debug.dll"
+windows.release.x86_64 = "res://addons/QuicServer/godot_quic_connections.dll"
+macos.debug =            "res://addons/QuicServer/libgodot_quic_connections_debug.dylib"
+macos.release =          "res://addons/QuicServer/libgodot_quic_connections.dylib"
+macos.debug.arm64 =      "res://addons/QuicServer/libgodot_quic_connections_debug.dylib"
+macos.release.arm64 =    "res://addons/QuicServer/libgodot_quic_connections.dylib"
